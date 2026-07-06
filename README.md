@@ -21,8 +21,8 @@ No single Wi-Fi configuration fits all KPI objectives at the same time. The base
 - `results/perama/`: selected CSV outputs for the Perama Shipyard Wi-Fi Baseline.
 - `figures/perama/`: selected PNG figures.
 - `docs/`: summary reports and data-quality notes.
-- `data/templates/`: KOSORI pilot test data template.
+- `data/templates/`: Laboratory pilot test data template.
 
 ## Next Step
 
-KOSORI Wi-Fi5 pilot test.
+Laboratory Wi-Fi5 pilot test.

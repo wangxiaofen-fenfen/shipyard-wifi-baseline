@@ -1,8 +1,8 @@
-# KOSORI Wi-Fi5 Test Plan Draft
+# Laboratory Wi-Fi5 Test Plan Draft
 
 ## Purpose
 
-Run a small Wi-Fi5 pilot measurement at KOSORI.
+Run a small Wi-Fi5 pilot measurement at Laboratory.
 
 ## Equipment
 

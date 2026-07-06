@@ -1,0 +1,27 @@
+Laboratory rename check report
+
+Purpose
+- Rename public-facing laboratory pilot references from the former project label to Laboratory/laboratory.
+- Scope is naming, documentation, public file names, directory names, and manifest references only.
+- No experimental data values were regenerated or modified.
+
+Renamed files
+- docs/laboratory_wifi5_test_plan_draft.md
+- data/templates/laboratory_wifi5_pilot_template.csv
+
+Renamed directories
+- results/laboratory_pilot
+- figures/laboratory_pilot
+- matlab/laboratory_wifi5_pilot
+
+Remaining legacy-name count
+- File or directory name matches: 0
+- Text matches in working tree: 0
+
+Safety scan result
+- Absolute local path leak: none found
+- Tracked raw JSON files: none found
+- Tracked .fig files: none found
+- Tracked .pem/.key files: none found
+- High-risk credential patterns: none found
+- Broad keyword scan has known benign hits only in ignore rules and MATLAB parser variable names.
