@@ -1,20 +1,20 @@
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/check_c02_ros_control_delay_availability.m:8:project_root = ".";
-github_export/shipyard-wifi-baseline/docs/c02_wifi_baseline_rule_table_report.md:9:- Integrated KPI baseline v2: `results/c02/c02_integrated_kpi_baseline_v2.csv`
-github_export/shipyard-wifi-baseline/docs/c02_wifi_baseline_rule_table_report.md:10:- Best config by KPI v2: `results/c02/c02_best_config_by_kpi_v2.csv`
-github_export/shipyard-wifi-baseline/docs/c02_wifi_baseline_rule_table_report.md:11:- Trade-off summary v2: `results/c02/c02_kpi_tradeoff_summary_v2.csv`
-github_export/shipyard-wifi-baseline/docs/c02_wifi_baseline_rule_table_report.md:12:- Normalized score v2: `results/c02/c02_integrated_kpi_normalized_score_v2.csv`
+github_export/shipyard-wifi-baseline/docs/perama_wifi_baseline_rule_table_report.md:9:- Integrated KPI baseline v2: `results/perama/perama_integrated_kpi_baseline_v2.csv`
+github_export/shipyard-wifi-baseline/docs/perama_wifi_baseline_rule_table_report.md:10:- Best config by KPI v2: `results/perama/perama_best_config_by_kpi_v2.csv`
+github_export/shipyard-wifi-baseline/docs/perama_wifi_baseline_rule_table_report.md:11:- Trade-off summary v2: `results/perama/perama_kpi_tradeoff_summary_v2.csv`
+github_export/shipyard-wifi-baseline/docs/perama_wifi_baseline_rule_table_report.md:12:- Normalized score v2: `results/perama/perama_integrated_kpi_normalized_score_v2.csv`
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/diagnose_c02_cdr_mismatch.m:7:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/extract_c02_iperf_throughput.m:8:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/validate_c02_json_cdr_against_table2.m:7:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/diagnose_c02_ros_negative_delay_rules.m:8:project_root = ".";
-github_export/shipyard-wifi-baseline/docs/c02_integrated_kpi_baseline_report_v2.md:10:- Throughput file: `results/c02/c02_iperf_throughput_summary_by_config.csv`
-github_export/shipyard-wifi-baseline/docs/c02_integrated_kpi_baseline_report_v2.md:12:- PTP file: `results/c02/c02_ptp_simple_rule_summary.csv`
-github_export/shipyard-wifi-baseline/docs/c02_integrated_kpi_baseline_report_v2.md:13:- PTP availability file: `results/c02/c02_ptp_steady_sample_availability.csv`
+github_export/shipyard-wifi-baseline/docs/perama_integrated_kpi_baseline_report_v2.md:10:- Throughput file: `results/perama/perama_iperf_throughput_summary_by_config.csv`
+github_export/shipyard-wifi-baseline/docs/perama_integrated_kpi_baseline_report_v2.md:12:- PTP file: `results/perama/perama_ptp_simple_rule_summary.csv`
+github_export/shipyard-wifi-baseline/docs/perama_integrated_kpi_baseline_report_v2.md:13:- PTP availability file: `results/perama/perama_ptp_steady_sample_availability.csv`
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/build_c02_integrated_kpi_baseline_v2.m:12:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/diagnose_c02_ptp_missing_steady_sample.m:11:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/diagnose_c02_ros_negative_delay_root_cause.m:10:project_root = ".";
-github_export/shipyard-wifi-baseline/docs/c02_ptp_missing_steady_sample_report.md:43:- `results/c02/c02_ptp_steady_sample_availability.csv`
-github_export/shipyard-wifi-baseline/docs/c02_ptp_missing_steady_sample_report.md:44:- `results/c02/c02_ptp_missing_s3_ac520_crosscheck.csv`
+github_export/shipyard-wifi-baseline/docs/perama_ptp_missing_steady_sample_report.md:43:- `results/perama/perama_ptp_steady_sample_availability.csv`
+github_export/shipyard-wifi-baseline/docs/perama_ptp_missing_steady_sample_report.md:44:- `results/perama/perama_ptp_missing_s3_ac520_crosscheck.csv`
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/extract_c02_ptp_delay.m:8:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/check_ptp_delay_stat_rule_simple.m:8:project_root = ".";
 github_export/shipyard-wifi-baseline/matlab/c02_wifi_reproduction/build_c02_wifi_baseline_rule_table.m:10:project_root = ".";

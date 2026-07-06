@@ -1,4 +1,4 @@
-# C02 ROS/Control Negative Delay Root-Cause Check
+# Perama ROS/Control Negative Delay Root-Cause Check
 
 ## Purpose
 This step diagnoses negative ROS/control delay only. It checks when negative `control_delay_ms` appears, how large it is, whether it is concentrated by scenario/config, and whether it appears in isolated samples or bursts.
@@ -42,11 +42,11 @@ Negative values are burst-like when adjacent negative samples are within 2 s. Th
 Use this as supplementary diagnostic evidence and inspect timestamp/log synchronization before any formal ROS/control delay reproduction.
 
 ## Generated Outputs
-- `c02_ros_negative_rootcause_by_config.csv`
-- `c02_ros_negative_before_vs_after120_summary.csv`
-- `c02_ros_negative_magnitude_bins.csv`
-- `c02_ros_negative_bursts.csv`
-- `c02_ros_negative_rootcause_label.csv`
-- `fig_c02_ros_negative_delay_over_time.png/.fig`
-- `fig_c02_ros_negative_before_after120_bar.png/.fig`
-- `fig_c02_ros_negative_magnitude_bins.png/.fig`
+- `perama_ros_negative_rootcause_by_config.csv`
+- `perama_ros_negative_before_vs_after120_summary.csv`
+- `perama_ros_negative_magnitude_bins.csv`
+- `perama_ros_negative_bursts.csv`
+- `perama_ros_negative_rootcause_label.csv`
+- `fig_perama_ros_negative_delay_over_time.png/.fig`
+- `fig_perama_ros_negative_before_after120_bar.png/.fig`
+- `fig_perama_ros_negative_magnitude_bins.png/.fig`

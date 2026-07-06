@@ -1,7 +1,7 @@
-# C02 PTP Missing Steady-State Sample Diagnosis
+# Perama PTP Missing Steady-State Sample Diagnosis
 
 ## Current Problem
-`c02_ptp_simple_rule_summary.csv` reports `steady_mean=NaN` and `sample_count_steady=0` for `S3 / ac/5/20`.
+`perama_ptp_simple_rule_summary.csv` reports `steady_mean=NaN` and `sample_count_steady=0` for `S3 / ac/5/20`.
 
 This step diagnoses the missing PTP steady-state sample only. It does not generate an integrated KPI main conclusion.
 
@@ -40,7 +40,7 @@ C. Keep S3 / ac/5/20 as a limitation in V2-6 and do not substitute all_mean for 
 Do not fill the missing PTP steady_mean, do not use all_mean as a steady-state substitute, and do not delete `S3 / ac/5/20`.
 
 ## Generated Outputs
-- `results/c02/c02_ptp_steady_sample_availability.csv`
-- `results/c02/c02_ptp_missing_s3_ac520_crosscheck.csv`
-- `fig_c02_ptp_steady_sample_count_heatmap.png/.fig`
-- `fig_c02_ptp_s3_ac520_time_series.png/.fig`
+- `results/perama/perama_ptp_steady_sample_availability.csv`
+- `results/perama/perama_ptp_missing_s3_ac520_crosscheck.csv`
+- `fig_perama_ptp_steady_sample_count_heatmap.png/.fig`
+- `fig_perama_ptp_s3_ac520_time_series.png/.fig`

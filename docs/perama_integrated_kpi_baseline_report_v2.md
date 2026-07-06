@@ -1,16 +1,16 @@
-# C02 Integrated KPI Baseline V2
+# Perama Integrated KPI Baseline V2
 
 ## Purpose
-Build a 36-row integrated KPI baseline for C02 Wi-Fi configurations using reproduced throughput, reproduced PTP steady-state delay where available, PTP missing flags, and paper Table 2 CDR_75ms.
+Build a 36-row integrated KPI baseline for Perama Wi-Fi configurations using reproduced throughput, reproduced PTP steady-state delay where available, PTP missing flags, and paper Table 2 CDR_75ms.
 
 This is literature raw-data reproduction and baseline integration, not Wi-Fi PHY simulation.
 
 ## Input Data
 - Throughput source: raw JSON MATLAB reproduction
-- Throughput file: `results/c02/c02_iperf_throughput_summary_by_config.csv`
+- Throughput file: `results/perama/perama_iperf_throughput_summary_by_config.csv`
 - PTP source: raw JSON steady_mean, time_s >= 120
-- PTP file: `results/c02/c02_ptp_simple_rule_summary.csv`
-- PTP availability file: `results/c02/c02_ptp_steady_sample_availability.csv`
+- PTP file: `results/perama/perama_ptp_simple_rule_summary.csv`
+- PTP availability file: `results/perama/perama_ptp_steady_sample_availability.csv`
 - PTP limitation: S3 / ac/5/20 has raw samples only from 0 to 105.91s, so no steady-state PTP sample exists
 - CDR source: paper Table 2
 - ROS/control delay status: supplementary only because negative delay risk exists

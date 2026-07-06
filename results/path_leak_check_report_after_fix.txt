@@ -8,9 +8,9 @@ remaining leak count: 0
 remaining files if any: none
 
 fixed files:
-- docs/c02_integrated_kpi_baseline_report_v2.md
-- docs/c02_ptp_missing_steady_sample_report.md
-- docs/c02_wifi_baseline_rule_table_report.md
+- docs/perama_integrated_kpi_baseline_report_v2.md
+- docs/perama_ptp_missing_steady_sample_report.md
+- docs/perama_wifi_baseline_rule_table_report.md
 - matlab/c02_wifi_reproduction/build_c02_integrated_kpi_baseline_v2.m
 - matlab/c02_wifi_reproduction/build_c02_wifi_baseline_rule_table.m
 - matlab/c02_wifi_reproduction/check_c02_ros_control_delay_availability.m

@@ -1,15 +1,15 @@
-# C02 Wi-Fi Baseline Rule Table
+# Perama Wi-Fi Baseline Rule Table
 
 ## Purpose
-Build a scenario-wise Wi-Fi baseline rule table from reproduced C02 shipyard Wi-Fi KPI data.
+Build a scenario-wise Wi-Fi baseline rule table from reproduced Perama shipyard Wi-Fi KPI data.
 
-This is a rule table based on real C02 shipyard Wi-Fi data reproduction, not simulation.
+This is a rule table based on real Perama Wi-Fi Data Reproduction, not simulation.
 
 ## Input Data
-- Integrated KPI baseline v2: `results/c02/c02_integrated_kpi_baseline_v2.csv`
-- Best config by KPI v2: `results/c02/c02_best_config_by_kpi_v2.csv`
-- Trade-off summary v2: `results/c02/c02_kpi_tradeoff_summary_v2.csv`
-- Normalized score v2: `results/c02/c02_integrated_kpi_normalized_score_v2.csv`
+- Integrated KPI baseline v2: `results/perama/perama_integrated_kpi_baseline_v2.csv`
+- Best config by KPI v2: `results/perama/perama_best_config_by_kpi_v2.csv`
+- Trade-off summary v2: `results/perama/perama_kpi_tradeoff_summary_v2.csv`
+- Normalized score v2: `results/perama/perama_integrated_kpi_normalized_score_v2.csv`
 
 ## Demand Profiles
 - high_throughput_priority: Select highest throughput_mbps_mean.

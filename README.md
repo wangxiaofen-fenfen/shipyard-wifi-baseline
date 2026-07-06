@@ -1,8 +1,8 @@
-# Shipyard Wi-Fi Baseline
+# Perama Shipyard Wi-Fi Baseline
 
-This repository contains a local GitHub-ready export of the C02 real shipyard Wi-Fi data reproduction and baseline rule table.
+This repository contains the Perama Shipyard Wi-Fi Baseline, derived from the public dataset of Rady et al.'s Wi-Fi shipyard study.
 
-This project is a C02 real shipyard Wi-Fi data reproduction, not a Wi-Fi physical-layer simulation.
+This project is a literature-derived Perama Wi-Fi Data Reproduction and baseline integration, not a Wi-Fi physical-layer simulation.
 
 ## Data Sources
 
@@ -17,9 +17,9 @@ No single Wi-Fi configuration fits all KPI objectives at the same time. The base
 
 ## Repository Layout
 
-- `matlab/c02_wifi_reproduction/`: MATLAB scripts used for the C02 reproduction and rule table.
-- `results/c02/`: selected CSV outputs for the C02 baseline.
-- `figures/c02/`: selected PNG figures.
+- `matlab/c02_wifi_reproduction/`: original reproduction scripts for the Perama Shipyard Wi-Fi Baseline.
+- `results/perama/`: selected CSV outputs for the Perama Shipyard Wi-Fi Baseline.
+- `figures/perama/`: selected PNG figures.
 - `docs/`: summary reports and data-quality notes.
 - `data/templates/`: KOSORI pilot test data template.
 

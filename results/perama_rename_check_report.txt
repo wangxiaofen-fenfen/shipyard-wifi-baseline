@@ -1,0 +1,48 @@
+Perama rename check report
+
+Purpose
+- Rename the public-facing C02 baseline export to Perama Shipyard Wi-Fi Baseline.
+- Scope is naming, documentation, public result filenames, figure filenames, and references only.
+- No experimental data values were regenerated or modified.
+
+Renamed docs files
+- docs/c02_baseline_summary.md -> docs/perama_shipyard_wifi_baseline_summary.md
+- docs/c02_integrated_kpi_baseline_report_v2.md -> docs/perama_integrated_kpi_baseline_report_v2.md
+- docs/c02_wifi_baseline_rule_table_report.md -> docs/perama_wifi_baseline_rule_table_report.md
+- docs/c02_ros_negative_delay_rootcause_report.md -> docs/perama_ros_negative_delay_rootcause_report.md
+- docs/c02_ptp_missing_steady_sample_report.md -> docs/perama_ptp_missing_steady_sample_report.md
+
+Renamed results files
+- results/c02/ -> results/perama/
+- results/c02_github_export_manifest.csv -> results/perama_github_export_manifest.csv
+- results/perama/c02_integrated_kpi_baseline_v2.csv -> results/perama/perama_integrated_kpi_baseline_v2.csv
+- results/perama/c02_best_config_by_kpi_v2.csv -> results/perama/perama_best_config_by_kpi_v2.csv
+- results/perama/c02_kpi_tradeoff_summary_v2.csv -> results/perama/perama_kpi_tradeoff_summary_v2.csv
+- results/perama/c02_integrated_kpi_normalized_score_v2.csv -> results/perama/perama_integrated_kpi_normalized_score_v2.csv
+- results/perama/c02_wifi_baseline_rule_table.csv -> results/perama/perama_wifi_baseline_rule_table.csv
+- results/perama/c02_wifi_baseline_rule_summary_by_scenario.csv -> results/perama/perama_wifi_baseline_rule_summary_by_scenario.csv
+- results/perama/c02_wifi_config_role_summary.csv -> results/perama/perama_wifi_config_role_summary.csv
+
+Renamed figures files
+- figures/c02/ -> figures/perama/
+- 18 PNG files renamed from fig_c02_*.png to fig_perama_*.png.
+
+Remaining C02/c02 occurrences
+- README.md keeps matlab/c02_wifi_reproduction/ only to identify the original reproduction script folder.
+- results/perama_github_export_manifest.csv keeps matlab/c02_wifi_reproduction/ and c02 script filenames as original script compatibility references.
+- results/path_leak_check_report.txt keeps historical references to matlab/c02_wifi_reproduction/ script paths.
+- results/path_leak_check_report_after_fix.txt keeps historical references to matlab/c02_wifi_reproduction/ script paths.
+- matlab/c02_wifi_reproduction/ and its script filenames/internal output references are unchanged for compatibility.
+
+Kept for script compatibility
+- matlab/c02_wifi_reproduction/
+- matlab/c02_wifi_reproduction/*.m
+- Original c02-prefixed script names and internal generated-output names inside those scripts.
+
+Public-facing rename status
+- README title and first description now use Perama Shipyard Wi-Fi Baseline.
+- docs public report filenames use perama_* names.
+- exported results directory is results/perama/.
+- exported figures directory is figures/perama/.
+- exported main CSV filenames use perama_* names.
+- exported PNG filenames use fig_perama_* names.

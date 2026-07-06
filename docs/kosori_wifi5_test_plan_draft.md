@@ -32,5 +32,5 @@ Run a small Wi-Fi5 pilot measurement at KOSORI.
 
 - Recommended duration: 180 seconds per run.
 - Mark the first 120 seconds as startup.
-- Compare only against the C02 Wi-Fi5 subset.
+- Compare only against the Perama Wi-Fi5 subset.
 - Do not claim full Wi-Fi6 reproduction.
