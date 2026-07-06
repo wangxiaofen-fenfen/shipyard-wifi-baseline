@@ -1,0 +1,10 @@
+protocol_or_config,recommended_count_total,recommended_for_high_throughput_count,recommended_for_low_ptp_delay_count,recommended_for_control_reliability_count,recommended_for_balanced_count,recommended_for_conservative_count,role_summary
+ax/6/160,8,3,0,2,3,0,high_throughput_dominant
+ax/5/80,2,0,1,0,0,1,specialized_candidate
+ac/5/80,0,0,0,0,0,0,rarely_recommended
+ax/6/80,7,1,2,1,1,2,low_delay_dominant
+ax/2.4/20,0,0,0,0,0,0,rarely_recommended
+ax/5/20,2,0,1,0,0,1,specialized_candidate
+ac/5/20,0,0,0,0,0,0,rarely_recommended
+ax/6/20,1,0,0,1,0,0,specialized_candidate
+n/2.4/20,0,0,0,0,0,0,rarely_recommended

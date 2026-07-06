@@ -1,0 +1,10 @@
+external_data/
+raw_data/
+*.fig
+*.mat
+*.zip
+*.log
+.DS_Store
+private/
+secrets/
+credentials/

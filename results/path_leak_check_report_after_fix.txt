@@ -1,0 +1,25 @@
+Path leak check after fix
+
+Scanned file pattern:
+.md, .m, .csv, .txt
+
+scanned file count: 31
+remaining leak count: 0
+remaining files if any: none
+
+fixed files:
+- docs/c02_integrated_kpi_baseline_report_v2.md
+- docs/c02_ptp_missing_steady_sample_report.md
+- docs/c02_wifi_baseline_rule_table_report.md
+- matlab/c02_wifi_reproduction/build_c02_integrated_kpi_baseline_v2.m
+- matlab/c02_wifi_reproduction/build_c02_wifi_baseline_rule_table.m
+- matlab/c02_wifi_reproduction/check_c02_ros_control_delay_availability.m
+- matlab/c02_wifi_reproduction/check_ptp_delay_stat_rule_simple.m
+- matlab/c02_wifi_reproduction/diagnose_c02_cdr_mismatch.m
+- matlab/c02_wifi_reproduction/diagnose_c02_ptp_missing_steady_sample.m
+- matlab/c02_wifi_reproduction/diagnose_c02_ros_negative_delay_root_cause.m
+- matlab/c02_wifi_reproduction/diagnose_c02_ros_negative_delay_rules.m
+- matlab/c02_wifi_reproduction/extract_c02_iperf_throughput.m
+- matlab/c02_wifi_reproduction/extract_c02_ptp_delay.m
+- matlab/c02_wifi_reproduction/validate_c02_json_cdr_against_table2.m
+- results/path_leak_check_report.txt

@@ -1,0 +1,13 @@
+unified_scenario,scenario_name,kpi_name,best_config,best_value,higher_is_better,data_source,excluded_missing_rows_note
+S1,Short LoS,throughput_mbps_mean,ax/6/160,633.494584138889,1,raw JSON MATLAB throughput reproduction,none
+S1,Short LoS,ptp_delay_ms_steady_mean,ax/6/80,9.69053748739496,0,raw JSON PTP steady_mean time_s >= 120,none
+S1,Short LoS,cdr75_percent_table2,ax/6/160,94,1,paper Table 2,none
+S2,Medium LoS,throughput_mbps_mean,ax/6/160,563.586619794444,1,raw JSON MATLAB throughput reproduction,none
+S2,Medium LoS,ptp_delay_ms_steady_mean,ax/6/80,11.6194157563025,0,raw JSON PTP steady_mean time_s >= 120,none
+S2,Medium LoS,cdr75_percent_table2,ax/6/160,97,1,paper Table 2,none
+S3,Long NLoS,throughput_mbps_mean,ax/6/160,84.6611390111111,1,raw JSON MATLAB throughput reproduction,none
+S3,Long NLoS,ptp_delay_ms_steady_mean,ax/5/20,8.71990719327731,0,raw JSON PTP steady_mean time_s >= 120,excluded_missing_ptp_steady_mean:S3/ac/5/20
+S3,Long NLoS,cdr75_percent_table2,ax/6/80,99,1,paper Table 2,none
+S4,Long mixed,throughput_mbps_mean,ax/6/80,185.917399811111,1,raw JSON MATLAB throughput reproduction,none
+S4,Long mixed,ptp_delay_ms_steady_mean,ax/5/80,10.8707820583333,0,raw JSON PTP steady_mean time_s >= 120,none
+S4,Long mixed,cdr75_percent_table2,ax/6/20,95,1,paper Table 2,none

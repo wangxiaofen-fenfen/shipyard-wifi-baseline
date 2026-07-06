@@ -1,0 +1,1 @@
+run_id,date,location_name,scenario_id,scenario_name,distance_m,los_condition,obstacle_note,wifi_config,band_ghz,bandwidth_mhz,channel,ap_model,sta1_device,sta2_device,time_s,throughput_mbps,ping_delay_ms,rssi_dbm,packet_loss_percent,note

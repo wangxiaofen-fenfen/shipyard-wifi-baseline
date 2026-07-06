@@ -1,0 +1,5 @@
+unified_scenario,scenario_name,high_throughput_recommendation,low_ptp_delay_recommendation,control_reliability_recommendation,balanced_recommendation,conservative_control_delay_recommendation,main_tradeoff_note,missing_data_note
+S1,Short LoS,ax/6/160,ax/6/80,ax/6/160,ax/6/160,ax/6/80,throughput_and_cdr_align_ptp_differs,none
+S2,Medium LoS,ax/6/160,ax/6/80,ax/6/160,ax/6/160,ax/6/80,throughput_and_cdr_align_ptp_differs,none
+S3,Long NLoS,ax/6/160,ax/5/20,ax/6/80,ax/6/160,ax/5/20,three_kpis_select_different_configs,excluded_missing_ptp_steady_mean:S3/ac/5/20
+S4,Long mixed,ax/6/80,ax/5/80,ax/6/20,ax/6/80,ax/5/80,three_kpis_select_different_configs,none

@@ -1,0 +1,5 @@
+unified_scenario,scenario_name,best_throughput_config,best_ptp_delay_config,best_cdr75_config,all_three_same_config,throughput_vs_ptp_same,throughput_vs_cdr_same,ptp_vs_cdr_same,missing_ptp_config_note,main_tradeoff_note
+S1,Short LoS,ax/6/160,ax/6/80,ax/6/160,0,0,1,0,none,throughput_and_cdr_align_ptp_differs
+S2,Medium LoS,ax/6/160,ax/6/80,ax/6/160,0,0,1,0,none,throughput_and_cdr_align_ptp_differs
+S3,Long NLoS,ax/6/160,ax/5/20,ax/6/80,0,0,0,0,excluded_missing_ptp_steady_mean:S3/ac/5/20,three_kpis_select_different_configs
+S4,Long mixed,ax/6/80,ax/5/80,ax/6/20,0,0,0,0,none,three_kpis_select_different_configs
