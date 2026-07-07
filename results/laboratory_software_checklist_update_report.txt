@@ -1,0 +1,14 @@
+Laboratory software checklist update report
+
+- created docs/laboratory_software_checklist.md
+- created scripts/check_laboratory_software_mac.sh
+- updated README.md
+- chmod result: executable bit set on scripts/check_laboratory_software_mac.sh
+- safety scan result: passed for tracked worktree content
+- legacy lab-name count: 0
+- local absolute path count: 0
+- JSON file count: 0
+- FIG file count: 0
+- Perama result CSV files changed: no
+- Perama baseline rerun: no
+- notes: no actual data JSON files or MATLAB figure files were found

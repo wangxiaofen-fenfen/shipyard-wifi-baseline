@@ -39,6 +39,19 @@ Related files:
 - `matlab/laboratory_wifi5_pilot/compute_laboratory_cdr75_from_raw_log.m`
 - `data/templates/laboratory_wifi5_pilot_template.csv`
 
+## Laboratory Software Preparation
+
+Before running the Laboratory Wi-Fi5 pilot test, check the required software and connectivity using:
+
+- `docs/laboratory_software_checklist.md`
+- `scripts/check_laboratory_software_mac.sh`
+
+Run:
+
+```bash
+bash scripts/check_laboratory_software_mac.sh
+```
+
 ## Next Step
 
 Laboratory Wi-Fi5 pilot test.
