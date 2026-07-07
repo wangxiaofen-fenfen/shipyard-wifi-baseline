@@ -1,6 +1,6 @@
 # Laboratory Wi-Fi5 Software Checklist
 
-## Required Software
+## Required software
 
 | software | required_on | purpose | check_command | install_command |
 | --- | --- | --- | --- | --- |
@@ -15,14 +15,14 @@
 | ping | both computers | connectivity check between laptops | `ping -c 10 <COMPUTER_A_IP>` | Included with macOS |
 | Wi-Fi RSSI checking method | both computers | record RSSI, noise, channel, PHY mode, and Tx rate | Option-click Wi-Fi icon | Included with macOS |
 
-## Optional Software
+## Optional software
 
 | software | purpose |
 | --- | --- |
 | VS Code | edit notes, scripts, and CSV templates |
 | Wireshark | optional packet-level inspection during debugging |
 
-## Mac Check Commands
+## Mac check commands
 
 Run these checks before the Laboratory Wi-Fi5 pilot test:
 
@@ -43,7 +43,7 @@ networksetup -getairportnetwork en1
 
 The `pip3 install pandas numpy` command is listed as a preparation command. The repository check script does not install software.
 
-## Two-Laptop Connectivity Check
+## Two-laptop connectivity check
 
 Computer A = server / receiver.
 
@@ -67,7 +67,7 @@ Pass criterion:
 10 packets transmitted, 10 packets received, 0.0% packet loss
 ```
 
-## iPerf3 Smoke Test
+## iPerf3 smoke test
 
 On Computer A:
 
@@ -85,7 +85,7 @@ Pass criterion:
 
 The client output shows Mbps or Mbits/sec throughput values.
 
-## RSSI Check
+## RSSI check
 
 On macOS:
 
@@ -93,13 +93,13 @@ On macOS:
 2. Click the Wi-Fi icon in the menu bar.
 3. Record RSSI, Noise, Channel, PHY Mode, and Tx Rate.
 
-## Pass Criteria
+## Pass criteria
 
-- iPerf3 works on both computers.
-- Python 3 works on both computers.
-- pandas and numpy import successfully.
-- Computers can ping each other.
-- iPerf3 client can connect to server.
-- RSSI and channel can be recorded.
-- MATLAB runs on the analysis computer.
-- Git works on the analysis computer.
+- iPerf3 works on both computers
+- Python3 works on both computers
+- pandas/numpy import successfully
+- computers can ping each other
+- iPerf3 client can connect to server
+- RSSI/channel can be recorded
+- MATLAB runs on analysis computer
+- Git works on analysis computer

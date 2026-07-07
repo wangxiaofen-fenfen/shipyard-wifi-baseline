@@ -4,11 +4,14 @@ Laboratory software checklist update report
 - created scripts/check_laboratory_software_mac.sh
 - updated README.md
 - chmod result: executable bit set on scripts/check_laboratory_software_mac.sh
-- safety scan result: passed for tracked worktree content
+- safety scan result: passed for tracked public files
+- recursive grep note: one historical uppercase lab-name match exists only in Git metadata logs, not tracked files
 - legacy lab-name count: 0
 - local absolute path count: 0
 - JSON file count: 0
 - FIG file count: 0
+- PEM/KEY file count: 0
+- sensitive material found: no
 - Perama result CSV files changed: no
 - Perama baseline rerun: no
 - notes: no actual data JSON files or MATLAB figure files were found
