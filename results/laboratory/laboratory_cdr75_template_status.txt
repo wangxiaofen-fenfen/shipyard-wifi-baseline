@@ -1,0 +1,1 @@
+Laboratory raw control log has not been collected yet. CDR_75ms will be computed after field data are added.

@@ -23,5 +23,5 @@ Safety scan result
 - Tracked raw JSON files: none found
 - Tracked .fig files: none found
 - Tracked .pem/.key files: none found
-- High-risk credential patterns: none found
+- High-risk sensitive patterns: none found
 - Broad keyword scan has known benign hits only in ignore rules and MATLAB parser variable names.

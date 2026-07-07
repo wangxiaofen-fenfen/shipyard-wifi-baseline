@@ -34,3 +34,9 @@ Run a small Wi-Fi5 pilot measurement at Laboratory.
 - Mark the first 120 seconds as startup.
 - Compare only against the Perama Wi-Fi5 subset.
 - Do not claim full Wi-Fi6 reproduction.
+
+## CDR_75ms Workflow
+
+- Definition: `docs/laboratory_raw_log_cdr_definition.md`
+- MATLAB template: `matlab/laboratory_wifi5_pilot/compute_laboratory_cdr75_from_raw_log.m`
+- Data template: `data/templates/laboratory_wifi5_pilot_template.csv`

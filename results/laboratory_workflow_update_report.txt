@@ -1,0 +1,19 @@
+Laboratory workflow update report
+
+- copied Perama Table 2 investigation doc: docs/perama_table2_cdr_method_investigation.md
+- created laboratory raw-log CDR definition doc: docs/laboratory_raw_log_cdr_definition.md
+- created MATLAB CDR script template: matlab/laboratory_wifi5_pilot/compute_laboratory_cdr75_from_raw_log.m
+- updated laboratory CSV template: data/templates/laboratory_wifi5_pilot_template.csv
+- README links updated: yes
+- related docs links updated: docs/laboratory_wifi5_test_plan_draft.md
+- template script check: passed; only status file generated because the data template has header only
+- safety scan result: passed
+- JSON data files found: 0
+- FIG files found: 0
+- .pem files found: 0
+- .key files found: 0
+- sensitive-pattern files found: 0
+- remaining legacy lab-name count: 0
+- remaining local absolute path count: 0
+- Perama result CSV files changed: no
+- Perama baseline rerun: no
